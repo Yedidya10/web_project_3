@@ -1,0 +1,15 @@
+.visit-us__content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  transition: .5s ease;
+}
+
+@media screen and (max-width: 768px) and (min-width: 320px) {
+  .visit-us__content  {
+    padding-block: 46px;
+  }
+}

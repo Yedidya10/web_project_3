@@ -1,0 +1,13 @@
+.place__content {
+  grid-column: 2;
+  grid-row: 2/4;
+  transition: .5s ease;
+}
+
+@media screen and (max-width: 768px) and (min-width: 320px) {
+  .place__content {
+    width: 288px;
+    margin: 0 auto;
+    grid-column: 1;
+  }
+}

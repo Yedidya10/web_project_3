@@ -1,0 +1,9 @@
+.lead__overlay {
+  width: 100%;
+  min-height: 615px;
+  position: absolute;
+  top: 0;
+  background-color: #000000;
+  mix-blend-mode: hue;
+  z-index: 1;
+}
