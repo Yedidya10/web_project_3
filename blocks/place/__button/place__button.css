@@ -9,7 +9,12 @@
   transition: .5s ease;
 }
 
-@media screen and (max-width: 768px) and (min-width: 320px) {
+.place__button:hover {
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 767px) and (min-width: 320px) {
   .place__button {
     width: 288px;
     padding: 13px 0;
