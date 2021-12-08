@@ -1,5 +1,6 @@
 .place__title {
   margin: 0;
+  align-self: flex-end;
   font-size: 72px;
   font-style: normal;
   font-weight: 900;

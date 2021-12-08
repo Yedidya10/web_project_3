@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="vendor/normalize.css" />
     <link rel="stylesheet" href="pages/index.css" />
     <title>From Homeland to Homeland</title>
   </head>
@@ -14,17 +13,16 @@
       </header>
       <main class="content">
         <section class="lead">
-          <h2 class="lead__title">From Homeland to Homeland</h2>
+          <h1 class="lead__title">From Homeland to Homeland</h1>
           <p class="lead__subtitle">
             An epic journey from Kentucky to Burundi through Wales and Ukraine
           </p>
-          <div class="lead__fit-image">
+          <div class="lead__image">
             <img
-              class="lead__image"
+            class="lead__pic"
               src="images/kalegin-michail-179870-unsplash.png"
               alt="picture of a town on the beach"
             />
-            <div class="lead__overlay"></div>
           </div>
         </section>
         <section class="intro">
@@ -49,18 +47,20 @@
             neighbor.
           </p>
         </section>
-        <div class="photo-grid">
-          <img class="photo-grid__image" src="images/Place1.png" alt="" />
-          <img class="photo-grid__image" src="images/Place2.png" alt="" />
-          <img class="photo-grid__image" src="images/Place3.png" alt="" />
-          <img class="photo-grid__image" src="images/Place4.png" alt="" />
-          <img class="photo-grid__image" src="images/Place5.png" alt="" />
-          <img class="photo-grid__image" src="images/Place6.png" alt="" />
-          <img class="photo-grid__image" src="images/Place7.png" alt="" />
-          <img class="photo-grid__image" src="images/Place8.png" alt="" />
-        </div>
-        <div class="places">
-          <section class="place">
+        <section class="photo-grid">
+          <ul class="photo-grid__list">
+            <li class="photo-grid__item"><img class="photo-grid__image" src="images/Place1.png" alt="" /></li>
+            <li class="photo-grid__item"><img class="photo-grid__image" src="images/Place2.png" alt="" /></li>
+            <li class="photo-grid__item"><img class="photo-grid__image" src="images/Place3.png" alt="" /></li>
+            <li class="photo-grid__item"><img class="photo-grid__image" src="images/Place4.png" alt="" /></li>
+            <li class="photo-grid__item"><img class="photo-grid__image" src="images/Place5.png" alt="" /></li>
+            <li class="photo-grid__item"><img class="photo-grid__image" src="images/Place6.png" alt="" /></li>
+            <li class="photo-grid__item"><img class="photo-grid__image" src="images/Place7.png" alt="" /></li>
+            <li class="photo-grid__item"><img class="photo-grid__image" src="images/Place8.png" alt="" /></li>
+          </ul>
+        </section>
+        <section class="places">
+          <article class="place">
             <h2 class="place__title">Kyiv, Ukraine</h2>
             <div class="website">
               <p class="website__url-heading">Artist</p>
@@ -97,8 +97,8 @@
               href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
               >Buy this artwork as NFT</a
             >
-          </section>
-          <section class="place">
+          </article>
+          <article class="place">
             <h2 class="place__title">Cricieth, Wales</h2>
             <div class="website">
               <p class="website__url-heading">Artist</p>
@@ -134,8 +134,8 @@
               href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
               >Buy this artwork as NFT</a
             >
-          </section>
-          <section class="place">
+          </article>
+          <article class="place">
             <h2 class="place__title">Berea, USA</h2>
             <div class="website">
               <p class="website__url-heading">Artist</p>
@@ -170,8 +170,8 @@
               href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
               >Buy this artwork as NFT</a
             >
-          </section>
-          <section class="place">
+          </article>
+          <article class="place">
             <h2 class="place__title">Muramvya, Burundi</h2>
             <div class="website">
               <p class="website__url-heading">Artist</p>
@@ -213,8 +213,8 @@
               href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
               >Buy this artwork as NFT</a
             >
-          </section>
-          <section class="place">
+          </article>
+          <article class="place">
             <h2 class="place__title">Safed, Israel</h2>
             <div class="website">
               <p class="website__url-heading">Artist</p>
@@ -243,16 +243,12 @@
               href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
               >Buy this artwork as NFT</a
             >
-          </section>
-        </div>
+          </article>
+        </section>
         <section class="visit-us">
           <div class="visit-us__content">
             <h2 class="visit-us__title">Visit Us</h2>
-            <address class="visit-us__address">
-              <p class="visit-us__paragraph">Year-round</p>
-              <p class="visit-us__paragraph">Practicum Art Gallery</p>
-              <p class="visit-us__paragraph">404 Tim Berners-Lee Ave</p>
-            </address>
+            <p class="visit-us__paragraph">Year-round  Practicum Art Gallery  404 Tim Berners-Lee Ave</p>
             <a class="link visit-us__button" href="#">Buy tickets</a>
           </div>
           <div class="visit-us__overlay"></div>
