@@ -5,16 +5,20 @@
   transition: 0.5s ease;
 }
 
-@media screen and (max-width: 1280px) and (min-width: 768px) {
+@media screen and (max-width: 1279px) and (min-width: 320px) {
+  .photo-grid {
+    padding-top: 90px;
+  }
+}
+
+@media screen and (max-width: 1279px) and (min-width: 768px) {
   .photo-grid {
     width: 720px;
-    padding-top: 90px;
   }
 }
 
 @media screen and (max-width: 767px) and (min-width: 320px) {
   .photo-grid {
     width: 288px;
-    padding-top: 90px;
   }
 }
